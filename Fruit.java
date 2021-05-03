@@ -8,8 +8,8 @@ public class Fruit { //super class
 		name = " ";	
 	}
 	
-	public Fruit(String n) { //constructor with 1 argument
-		name = n;
+	public Fruit(String name) { //constructor with 1 argument
+		this.name = name;
 	}
 	
 	public String getName() {
@@ -17,7 +17,7 @@ public class Fruit { //super class
 	}
 	
 	public String toString() {
-		return name + "constructor is invoked" + "\nFruit is\t\t: " + getName();
+		return name + " constructor is invoked." + "\nFruit is\t:" + getName();
 	}
 
 }
